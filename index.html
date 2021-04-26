@@ -38,6 +38,9 @@
 
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+    <!-- Test JS -->
+    <script src="js/lottie.js"></script>
     
     <title>James Boughen - Comedy writer</title>
 
@@ -50,10 +53,14 @@
         <div class="nav-row mt-0">
           <nav class="navbar-fixed-top pl-0 pr-0 mr-0 navbar nav-color navbar-expand-md navbar-dark bd-navbar">
             <div class="d-flex flex-grow-1">
-              <span class="nav-title navbar-brand">
-                <!-- <img class="nav-img" src="images/nav-img-sm.png" alt="James Boughen - Comedy Writer"/> -->
-                James Boughen 
-              </span>
+              <a href="/" style="text-decoration: none;">
+                <span class="nav-title navbar-brand" style="display:flex; align-content: left; align-items: center; max-height:50px;">
+                  <span class="brand-logo" style="max-width:120px; overflow:hidden; margin-left:-50px;">
+                    <lottie-player src="/js/skull.json"  background="transparent"  speed="1"  style="width: 150px; height: 150px;" hover loop></lottie-player>
+                  </span>
+                  <span class="brand-text">James Boughen</span> 
+                </span>
+              </a>
               <div class="w-100 text-right">
                 <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="icon-bar"></span>
@@ -89,6 +96,22 @@
         <h1 class="title-font">James Boughen</h1>
         <span class="sub-h1">Comedy writer</span>
       </div>
+      <!-- Test animation 
+      <section>
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <div style="color: white;">
+                <a href="https://www.twitter.com/@will_hi_lol">
+                  <lottie-player src="/js/twitter.json"  background="transparent"  speed="1"  style="width: 50px; height: 50px;" hover loop  color="#fff"></lottie-player>
+                  
+                  <lottie-player src="https://assets3.lottiefiles.com/packages/lf20_JoLzcd.json"  background="transparent"  speed="1"  style="width: 50px; height: 50px;" hover loop ></lottie-player>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>-->
       <!-- About us -->
       <section id="about-us" name="about-us" class="txt-bg">
         <div class="container">
@@ -210,6 +233,7 @@
     <!----------- Optional JavaScript ---------->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="js/jquery-341.js"></script>
+   
     <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>-->
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script type="text/javascript" src="/js/app.js"></script>
