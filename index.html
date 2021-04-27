@@ -55,7 +55,7 @@
             <div class="d-flex flex-grow-1">
               <span class="nav-title navbar-brand" style="display:flex; align-content: left; align-items: center; max-height:50px;">
                 <span class="brand-logo" style="max-width:120px; overflow:hidden; margin-left:-50px;">
-                  <lottie-player src="/js/skull.json"  background="transparent"  speed="1"  style="width: 150px; height: 150px;" hover loop></lottie-player>
+                  <lottie-player src="/js/skull.json"  background="transparent"  speed="1"  style="width: 150px; height: 150px;" hover></lottie-player>
                 </span>
                 <span class="brand-text">James Boughen</span> 
               </span>
@@ -90,9 +90,26 @@
     </header>
     <main id="content" class="main-style">
       <!-- Title -->
-      <div id="title-container" class="mt-0 mb-4 pt-3 container">
-        <h1 class="title-font">James Boughen</h1>
-        <span class="sub-h1">Comedy writer</span>
+      <div id="title-container-wrapper" class="d-flex">
+        <div id="title-container" class="container">
+          <div class="row">
+            <div class="col">
+             <h1 class="title-font">James Boughen</h1>
+             <span class="sub-h1">Writer, Editor, Disgraced FPL manager</span>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <div id="social-icon-wrapper">
+                <ul id="social-icons">
+                  <li class="social-container"><a href="#" target="_blank"><lottie-player src="/js/twitter.json"  background="transparent"  speed="1"  style="width: 50px; height: 50px;" hover loop></lottie-player></a></li>
+                  <li class="social-container ml-3"><a href="#" target="_blank"><lottie-player src="/js/youtube.json"  background="transparent"  speed="1"  style="width: 50px; height: 50px;" hover loop></lottie-player></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        
       </div>
       <!-- Test animation 
       <section>
@@ -104,7 +121,8 @@
                   <lottie-player src="/js/twitter.json"  background="transparent"  speed="1"  style="width: 50px; height: 50px;" hover loop  color="#fff"></lottie-player>
                   
                   <lottie-player src="https://assets3.lottiefiles.com/packages/lf20_JoLzcd.json"  background="transparent"  speed="1"  style="width: 50px; height: 50px;" hover loop ></lottie-player>
-                </a>
+
+                  
               </div>
             </div>
           </div>
