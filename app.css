@@ -378,8 +378,9 @@ html, body {
 
 /* form style */
 form {
-  width:100%;
+  width:90%;
   color: black;
+  margin: 0 auto;
 }
 /* .form-color{
   background-color: #49796B;
