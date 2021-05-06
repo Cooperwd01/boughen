@@ -1,11 +1,10 @@
 /* HEADER CSS */
 header {
-  background-color: #007848;
-  border-bottom: 8px solid black;
+  background-color: transparent;
 }
 
 h1, h2, h3, h4, h5 {
-  font-family: 'Permanent Marker', sans-serif;
+  font-family: 'Fjalla One', sans-serif;
 }
 
 h2 {
@@ -39,23 +38,18 @@ p {
   line-height: 1.5;
 }
 .form-wrapper{
-  border-top: 8px solid black;
-  border-bottom: 8px solid #007848;
-  background-color: #ffffff;
-  background-image: url("data:image/svg+xml,%3Csvg width='64' height='64' viewBox='0 0 64 64' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8 16c4.418 0 8-3.582 8-8s-3.582-8-8-8-8 3.582-8 8 3.582 8 8 8zm0-2c3.314 0 6-2.686 6-6s-2.686-6-6-6-6 2.686-6 6 2.686 6 6 6zm33.414-6l5.95-5.95L45.95.636 40 6.586 34.05.636 32.636 2.05 38.586 8l-5.95 5.95 1.414 1.414L40 9.414l5.95 5.95 1.414-1.414L41.414 8zM40 48c4.418 0 8-3.582 8-8s-3.582-8-8-8-8 3.582-8 8 3.582 8 8 8zm0-2c3.314 0 6-2.686 6-6s-2.686-6-6-6-6 2.686-6 6 2.686 6 6 6zM9.414 40l5.95-5.95-1.414-1.414L8 38.586l-5.95-5.95L.636 34.05 6.586 40l-5.95 5.95 1.414 1.414L8 41.414l5.95 5.95 1.414-1.414L9.414 40z' fill='%23007848' fill-opacity='0.4' fill-rule='evenodd'/%3E%3C/svg%3E");
+  background-color: #CE6A85;
 }
 
 #title-container-wrapper{
   align-items: center;
-  height: 50vh;
-  text-align: left;
-  border-bottom: 8px solid black;
-  background-color: #202020;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 80 80' width='60' height='60'%3E%3Cpath fill='%23007848' fill-opacity='0.41' d='M14 16H9v-2h5V9.87a4 4 0 1 1 2 0V14h5v2h-5v15.95A10 10 0 0 0 23.66 27l-3.46-2 8.2-2.2-2.9 5a12 12 0 0 1-21 0l-2.89-5 8.2 2.2-3.47 2A10 10 0 0 0 14 31.95V16zm40 40h-5v-2h5v-4.13a4 4 0 1 1 2 0V54h5v2h-5v15.95A10 10 0 0 0 63.66 67l-3.47-2 8.2-2.2-2.88 5a12 12 0 0 1-21.02 0l-2.88-5 8.2 2.2-3.47 2A10 10 0 0 0 54 71.95V56zm-39 6a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm40-40a2 2 0 1 1 0-4 2 2 0 0 1 0 4zM15 8a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm40 40a2 2 0 1 0 0-4 2 2 0 0 0 0 4z'%3E%3C/path%3E%3C/svg%3E");
-}
+  height: 95vh;
+  text-align: center;
+  background-color: #DBAD6A;
+  }
 
 #social-icon-wrapper {
-  text-align: right;
+  text-align: center;
   width: 100%;
 }
 #social-icons {
@@ -65,8 +59,8 @@ p {
   display:inline-block;
 }
 .social-container{
-  border: 4px solid #007848;
-  background-color: #fff;
+  border: 4px solid #fff;
+  background-color: #985277;
   transition-duration: 0.5s;
 }
 
@@ -82,7 +76,7 @@ p {
 } */
  
 .title-font{
-  font-family: 'Permanent Marker', sans-serif;  
+  font-family: 'Fjalla One', sans-serif;
   color: #fff;
   font-size: 3.5em;
 }
@@ -124,7 +118,7 @@ a.skip-link {
 
 /* Navbar */
 .nav-title {
-  font-family: 'Permanent Marker', sans-serif;
+  font-family: 'Fjalla One', sans-serif;
   color: #fff;
   font-size: 1.35em;
   border-bottom: 2px solid transparent;
@@ -221,7 +215,7 @@ button.navbar-toggler:focus {
   
 @media only screen and (min-width:768px) {
   a.nav-link{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Fjalla One', sans-serif;
     text-align: center;
     margin-left: 2em;
     outline: none;
@@ -273,14 +267,11 @@ button.navbar-toggler:focus {
 
 html, body {
   margin: 0px;
-  font-family: 'Roboto', sans-serif;
-  font-size:18px;
+  font-family: 'Fjalla One', sans-serif;
+  font-size:19px;
   color:#fff;
   scroll-behavior: smooth; 
-}
-
-.main-style{
-  background-color:#333;
+  background-color: #DBAD6A;
 }
 
 @media screen and (prefers-reduced-motion: reduce) {
@@ -378,9 +369,7 @@ html, body {
 
 /* form style */
 form {
-  width:90%;
-  color: black;
-  margin: 0 auto;
+  color: #fff;
 }
 /* .form-color{
   background-color: #49796B;
@@ -389,8 +378,7 @@ form {
 } */
 
 .form-style{
-  background-color:#fff;
-  border: 8px solid black;
+  background-color: transparent;
 }
 .form-control:focus {
   border-color: transparent !important;
@@ -425,7 +413,7 @@ input:focus, textarea:focus{
 }
 
 .contact-input:focus{
-  outline: 3px solid #191919;
+  outline: 3px solid #36453B;
 }
 
 input[type=text], input[type=email], textarea{
@@ -433,10 +421,12 @@ input[type=text], input[type=email], textarea{
 }
 
 .btn-color {
-  background-color:#191919;
-  border: 2px solid transparent; 
+  background-color:#fff;
+  border: 4px solid #36453B; 
   transition: .4s ease-in-out;
   margin-top: 37px;
+  border-radius: 0px;
+  color: #36453B;
 }
 
 @media only screen and (max-width:767px) {
@@ -446,9 +436,9 @@ input[type=text], input[type=email], textarea{
 }
 
 .btn-color:hover {
-  background-color:#fff; 
-  border: 2px solid #191919;
-  color: #191919;
+  background-color:#36453B; 
+  border: 4px solid #fff;
+  color: #fff;
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
 
@@ -464,8 +454,8 @@ button > i {
 
 .btn-color:active{
   background-color:#fff !important; 
-  border: 2px solid #191919 !important;
-  color: #191919 !important;
+  border: 2px solid #36453B !important;
+  color: #36453B !important;
   outline: 3px solid white !important;
 }
 /* /. */
@@ -662,12 +652,12 @@ lite-youtube:hover{
 .footer-title {
   font-size: 22px;
   color:#fff;
-  font-family: 'Permanent Marker', sans-serif;
+  font-family: 'Fjalla One', sans-serif;
   font-weight: 100;
 }
 
 .footer-style {
-  background-color:#191919; 
+  background-color: #A9D2D5; 
 }
 
 .ftr-nav-link {
@@ -679,7 +669,7 @@ lite-youtube:hover{
   color: #fff;
   border-bottom:solid 2px transparent;
   font-size: 18px;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Fjalla One', sans-serif;
   padding: 2px;
   text-decoration: none;
 }
@@ -861,9 +851,6 @@ a.soc-link:focus {
   outline: 2px solid #fff; 
 }
 
-footer {
-  border-top:2px solid #191919;
-}
 /* END OF FOOTER CSS */
 
 
@@ -959,5 +946,15 @@ p.p-title {
 hooker-green: #49796B;
 green-pea: #186048;
 fun-green: #007848;
+
+*/
+
+/* new colours 
+
+cinnamon satin: #CE6A85;
+sugar plum: #985277;
+powder blue: #A9D2D5;
+earth yellow: #DBAD6A;
+kombu green: #36453B;
 
 */
