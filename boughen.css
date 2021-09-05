@@ -1,0 +1,62 @@
+@font-face {
+  font-family: "Woodland-light";
+  src: url("/fonts/woodland-light.otf");
+  src: url("/fonts/woodland-light.woff") format("woff"),
+  url("/fonts/woodland-light.otf") format("opentype")
+}
+
+@font-face {
+  font-family: "Woodland-bold";
+  src: url("/fonts/woodland-bold.otf");
+  src: url("/fonts/woodland-bold.woff") format("woff"),
+  url("/fonts/woodland-bold.otf") format("opentype")
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+
+h1, h2 {
+  font-family: "Woodland-bold", sans-serif;
+}
+
+#title-container-wrapper{
+  background-color: #36453B;
+}
+
+.title-font{
+  font-family: "Woodland-bold", sans-serif;
+  font-size: 4rem;
+}
+span.sub-h1{
+  font-family: "Woodland-bold", sans-serif;
+  color: #dbad6a;
+  font-size: 3rem;
+}
+
+p {
+  font-family: "Inter", sans-serif;
+}
+
+#title-container-wrapper{
+  align-items: center;
+  text-align: center;
+}
+
+.banner-img {
+  width:100%;
+  display:block;
+  box-shadow: 40px 40px 0px -23px rgba(219,173,106,1);
+-webkit-box-shadow: 40px 40px 0px -23px rgba(219,173,106,1);
+-moz-box-shadow: 40px 40px 0px -23px rgba(219,173,106,1);
+}
+
+/* new colours 
+
+cinnamon satin: #CE6A85;
+sugar plum: #985277;
+powder blue: #A9D2D5;
+earth yellow: #DBAD6A;
+kombu green: #36453B;
+
+*/
