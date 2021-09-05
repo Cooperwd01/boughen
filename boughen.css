@@ -51,6 +51,18 @@ p {
 -moz-box-shadow: 40px 40px 0px -23px rgba(219,173,106,1);
 }
 
+
+
+@media only screen and (max-width:767px) {
+  .banner-img {
+    width:95%;
+    display:block;
+    box-shadow: 40px 40px 0px -23px rgba(219,173,106,1);
+  -webkit-box-shadow: 40px 40px 0px -23px rgba(219,173,106,1);
+  -moz-box-shadow: 40px 40px 0px -23px rgba(219,173,106,1);
+  }
+}
+
 /* new colours 
 
 cinnamon satin: #CE6A85;
