@@ -81,6 +81,7 @@ p {
     width: 200px;
   }
 }
+
 /* contact form */
 .contact-input:focus {
   outline: 3px solid #DBAD6A;
@@ -96,6 +97,8 @@ p {
 .form-wrapper {
   background-color: #5D2E46;
 }
+
+/* footer */ 
 .footer-style{
   background-color: transparent;
 }
