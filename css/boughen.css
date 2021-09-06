@@ -63,6 +63,9 @@ p {
     -webkit-box-shadow: 40px 40px 0px -23px rgba(219,173,106,1);
     -moz-box-shadow: 40px 40px 0px -23px rgba(219,173,106,1);
   }
+  p {
+    font-size: 16px;
+  }
 }
 
 .logo-img {
@@ -87,6 +90,10 @@ p {
   outline: 3px solid #DBAD6A;
 }
 
+.button-img{
+  width: 32px;
+  margin-right: 10px;
+}
 .btn-color:hover {
   background-color: #DBAD6A;
   color: #36453B;
