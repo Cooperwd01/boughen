@@ -146,6 +146,18 @@ p {
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
 }
 
+@media only screen and (max-width:767px) {
+  .flip-card {
+    width: 180px;
+    height: 180px;
+  }
+  .flip-card-back > h2 {
+    font-size: 14px;
+    font-family: "Inter", sans-serif;
+    padding: 5px 10px;
+  }
+}
+
 /* This container is needed to position the front and back side */
 .flip-card-inner {
   position: relative;
