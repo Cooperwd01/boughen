@@ -142,8 +142,7 @@
               
               <p>Please pay me to write some things for you.</p>
             </div>
-            <!-- Test carousels -->
-            <div class="col-12 col-md-8">
+            <div class="col-12 col-md-8 col-lg-3">
               <div class="autoplay">
                 <img src="/img/logos/BBC-logo.png" alt="BBC" class="logo-img" />
                 <img src="/img/logos/itv.png" alt="ITV" class="logo-img" />
@@ -165,7 +164,6 @@
           <div class="container"> 
             <form class="form-style" action="https://formspree.io/cooperbrotherswrite@gmail.com" method="POST">
               <div class="row">
-                <!-- <a id="contact" name="contact" class="anchor"></a> -->
                 <div class="col">
                   <h2>Contact</h2>
                 </div>
@@ -187,7 +185,7 @@
               <div class="form-row">
                 <div class="form-group col-md-8">
                   <label for="message">Message</label>
-                  <textarea id="message" rows="3" class="form-control wide-input contact-input" aria-required="true" required name="text" placeholder="My megaphone broke, but you don't hear me complaining about it" onfocus="this.placeholder = ''" onblur="this.placeholder = 'You were expecting another joke for free?!'"></textarea>
+                  <textarea id="message" rows="3" class="form-control wide-input contact-input" aria-required="true" required name="text" placeholder="I need a proper good writer!"></textarea>
                 </div>
                 <div class="form-group col-md-4">
                   <button class="btn-color btn btn-primary" type="submit" value="Send">
@@ -237,11 +235,21 @@
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script>
       $('.autoplay').slick({
-        slidesToShow: 3,
+        slidesToShow: 5,
         slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 2500,
-        arrows: false
+        arrows: false,
+        vertical: true,
+        responsive: [
+          {
+            breakpoint: 991,
+              settings: {
+                vertical: false,
+                slidesToShow: 3
+              }
+          }
+        ]
       });
     </script>
   </body>
