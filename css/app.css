@@ -269,7 +269,7 @@ html, body {
   margin: 0px;
   font-family: 'Fjalla One', sans-serif;
   font-size:19px;
-  color:#fff;
+  /* color:#fff; */
   scroll-behavior: smooth; 
   background-color: #DBAD6A;
 }
