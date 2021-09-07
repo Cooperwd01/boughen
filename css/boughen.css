@@ -148,13 +148,18 @@ p {
 
 @media only screen and (max-width:767px) {
   .flip-card {
-    width: 180px;
-    height: 180px;
+    width: 170px;
+    height: 170px;
   }
   .flip-card-back > h2 {
     font-size: 14px;
     font-family: "Inter", sans-serif;
-    padding: 5px 10px;
+    padding: 5px;
+  }
+  .flip-card-back > p {
+    font-size: 13px;
+    padding: 0px 5px;
+    margin-bottom: 5px;
   }
 }
 
