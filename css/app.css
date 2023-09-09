@@ -191,13 +191,13 @@ button.navbar-toggler:focus {
 }
   
 .nav-link {
-  color: #fff !important;
+  /* color: #fff !important; */
   border-bottom: solid 2px transparent;
   text-decoration: none;
 }
   
 .nav-link:focus{
-  outline: 2px solid #fff;
+  outline: 2px solid #36453B;
 }
   
 @media only screen and (max-width:767px) {
@@ -209,7 +209,7 @@ button.navbar-toggler:focus {
     font-size: 1.25em;
   }
   .nav-link:hover{
-    color:#fff;
+    color:#36453B;
   }
 }
   
@@ -230,7 +230,7 @@ button.navbar-toggler:focus {
     padding-left: 0px !important;
     }
     .nav-link:hover{
-      color: #fff;
+      color: #36453B;
     }
 }
 /* end of Nav / end of header */
@@ -239,7 +239,7 @@ button.navbar-toggler:focus {
 .hover-underline-animation {
   display: inline-block;
   position: relative;
-  color: #fff;
+  color: #36453B;
 }
 
 .hover-underline-animation::after {
@@ -250,7 +250,7 @@ button.navbar-toggler:focus {
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #fff;
+  background-color: #36453B;
   transform-origin: bottom right;
   transition: transform 0.25s ease-out;
 }
@@ -380,9 +380,9 @@ form {
 .form-style{
   background-color: transparent;
 }
-.form-control:focus {
+/* .form-control:focus {
   border-color: transparent !important;
-}
+} */
 .form-group{
   margin-bottom: 35px;
 }
@@ -651,7 +651,7 @@ lite-youtube:hover{
 /* FOOTER CSS */
 .footer-title {
   font-size: 22px;
-  color:#fff;
+  color: #36453B;
   font-family: 'Fjalla One', sans-serif;
   font-weight: 100;
 }
@@ -666,7 +666,7 @@ lite-youtube:hover{
 }
 
 .ftr-link {
-  color: #fff;
+  color: #36453B;
   border-bottom:solid 2px transparent;
   font-size: 18px;
   font-family: 'Fjalla One', sans-serif;
@@ -676,11 +676,11 @@ lite-youtube:hover{
 
 .ftr-link:hover {
   text-decoration: none;
-  color: #fff;
+  color: #36453B;
 }
 
 .ftr-link:focus {
-  outline: 2px solid #fff;
+  outline: 2px solid #36453B;
 }
 
 @media only screen and (max-width:400px) {
@@ -703,7 +703,7 @@ lite-youtube:hover{
   a.ftr-link{
     text-align: center;
     outline: none;
-    color: #fff;
+    color: #36453B;
     text-decoration: none;
     line-height:30px;
     transition: border 0.5s;
@@ -723,7 +723,7 @@ lite-youtube:hover{
 .ftr-underline-animation {
   display: inline-block;
   position: relative;
-  color: #fff;
+  color: #36453B;
 }
 
 .ftr-underline-animation::after {
@@ -734,7 +734,7 @@ lite-youtube:hover{
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #ffffff;
+  background-color: #36453B;
   transform-origin: bottom right;
   transition: transform 0.25s ease-out;
 }

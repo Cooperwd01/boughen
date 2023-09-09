@@ -12,11 +12,15 @@
   url("/fonts/woodland-bold.otf") format("opentype")
 }
 
-
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
 html, body {
   font-family: "Inter", sans-serif;
+}
+
+/* nav styles */
+.brand-text, .nav-link {
+  color: #36453B !important;
 }
 
 h1, h2 {
@@ -25,18 +29,20 @@ h1, h2 {
 
 #title-container-wrapper{
   background-color: #36453b;
-background-image: url("https://www.transparenttextures.com/patterns/navy.png");
-/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+  background-image: url("/img/jb-img/navy.png");
+  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 }
 
 .title-font{
   font-family: "Woodland-bold", sans-serif;
   font-size: 4rem;
+  text-shadow: -3px 3px 4px rgba(0, 0, 0, 1);
 }
 span.sub-h1{
   font-family: "Woodland-bold", sans-serif;
   color: #dbad6a;
   font-size: 3rem;
+  text-shadow: -3px 3px 4px rgba(0, 0, 0, 1);
 }
 
 p {
@@ -88,8 +94,14 @@ p {
 }
 
 /* contact form */
+.contact-input {
+  border: 3px solid #36453B;
+  border-radius: 0px; 
+}
+
 .contact-input:focus {
   outline: 3px solid #DBAD6A;
+  border: 5px solid #36453B;
 }
 
 .button-img{
@@ -199,6 +211,8 @@ p {
   color: white;
   transform: rotateY(180deg);
 }
+
+
 
 /* new colours 
 
