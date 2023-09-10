@@ -148,7 +148,7 @@ a.skip-link {
 }
   
 .navbar-dark .navbar-toggler .icon-bar {
-  background:#fff;
+  background: #36453B;
 }
   
 .navbar-toggler .icon-bar:nth-of-type(1) {
@@ -187,7 +187,8 @@ button.navbar-toggler {
 }
 
 button.navbar-toggler:focus {
-  outline: 2px solid #fff !important;
+  outline: 2px solid #36453B !important;
+  border-radius: 0px;
 }
   
 .nav-link {
