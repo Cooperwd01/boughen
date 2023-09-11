@@ -213,7 +213,15 @@ p {
 }
 
 
-
+.credit--radio::before {
+  content: "🔈 "
+}
+.credit--tv::before {
+  content: "📺 "
+}
+.credit--online::before {
+  content: "💻 "
+}
 /* new colours 
 
 cinnamon satin: #CE6A85;
