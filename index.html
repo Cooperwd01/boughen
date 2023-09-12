@@ -56,7 +56,8 @@
             <div class="d-flex flex-grow-1">
               <span class="nav-title navbar-brand" style="display:flex; align-content: left; align-items: center; max-height:50px;">
                 <span class="brand-logo" style="max-width:120px; overflow:hidden; margin-left:-50px;">
-                  <lottie-player src="/js/skull.json"  background="transparent"  speed="1"  style="width: 150px; height: 150px;" hover></lottie-player>
+                  <lottie-player src="/js/skull.json"  background="transparent"  speed="1"  style="width: 150px; height: 150px;" autoplay hover></lottie-player>
+                  <!-- <lottie-player src="https://lottie.host/99a64f40-a464-43a3-b162-9d46a235426e/zMbXM223km.json" background="transparent" speed="1" style="width: 60px; height: 60px; margin-right: 10px;" autoplay hover direction="1" mode="normal"></lottie-player> -->
                 </span>
                 <span class="brand-text">James Boughen</span> 
               </span>
@@ -226,20 +227,39 @@
    
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     
+    <!-- Lenis Scroll -->
+    <!-- <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.22/bundled/lenis.min.js"></script> 
+    <script>
+      const lenis = new Lenis()
+
+      lenis.on('scroll', (e) => {
+        console.log(e)
+      })
+
+      function raf(time) {
+        lenis.raf(time)
+        requestAnimationFrame(raf)
+      }
+
+      requestAnimationFrame(raf);
+    </script> -->
     <!-- GSAP -->
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.2/dist/gsap.min.js"></script>
 
     <script src="/js/app.js"></script>
-      
+    
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script>
       $('.autoplay').slick({
         slidesToShow: 4,
         slidesToScroll: 1,
         autoplay: true,
-        autoplaySpeed: 2500,
+        autoplaySpeed: 0,
+        speed: 4000,
         arrows: false,
+        pauseOnHover: false,
         vertical: false,
+        cssEase: 'linear',
         responsive: [
           {
             breakpoint: 992,
