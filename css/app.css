@@ -148,7 +148,7 @@ a.skip-link {
 }
   
 .navbar-dark .navbar-toggler .icon-bar {
-  background: #36453B;
+  background: #fff;
 }
   
 .navbar-toggler .icon-bar:nth-of-type(1) {
@@ -187,7 +187,7 @@ button.navbar-toggler {
 }
 
 button.navbar-toggler:focus {
-  outline: 2px solid #36453B !important;
+  outline: 2px solid #fff !important;
   border-radius: 0px;
 }
   
@@ -198,7 +198,7 @@ button.navbar-toggler:focus {
 }
   
 .nav-link:focus{
-  outline: 2px solid #36453B;
+  outline: 2px solid #fff;
 }
   
 @media only screen and (max-width:767px) {
@@ -272,7 +272,6 @@ html, body {
   font-size:19px;
   /* color:#fff; */
   scroll-behavior: smooth; 
-  background-color: #DBAD6A;
 }
 
 @media screen and (prefers-reduced-motion: reduce) {
@@ -652,7 +651,7 @@ lite-youtube:hover{
 /* FOOTER CSS */
 .footer-title {
   font-size: 22px;
-  color: #36453B;
+  color: #333;
   font-family: 'Fjalla One', sans-serif;
   font-weight: 100;
 }
@@ -667,7 +666,7 @@ lite-youtube:hover{
 }
 
 .ftr-link {
-  color: #36453B;
+  color: #333;
   border-bottom:solid 2px transparent;
   font-size: 18px;
   font-family: 'Fjalla One', sans-serif;
@@ -677,11 +676,11 @@ lite-youtube:hover{
 
 .ftr-link:hover {
   text-decoration: none;
-  color: #36453B;
+  color: #333;
 }
 
 .ftr-link:focus {
-  outline: 2px solid #36453B;
+  outline: 2px solid #333;
 }
 
 @media only screen and (max-width:400px) {
@@ -704,7 +703,7 @@ lite-youtube:hover{
   a.ftr-link{
     text-align: center;
     outline: none;
-    color: #36453B;
+    color: #333;
     text-decoration: none;
     line-height:30px;
     transition: border 0.5s;
@@ -724,7 +723,7 @@ lite-youtube:hover{
 .ftr-underline-animation {
   display: inline-block;
   position: relative;
-  color: #36453B;
+  color: #333;
 }
 
 .ftr-underline-animation::after {
@@ -735,7 +734,7 @@ lite-youtube:hover{
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #36453B;
+  background-color: #333;
   transform-origin: bottom right;
   transition: transform 0.25s ease-out;
 }

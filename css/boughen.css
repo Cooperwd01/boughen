@@ -14,62 +14,83 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
+:root { font-family: 'Inter', sans-serif; }
+@supports (font-variation-settings: normal) {
+  :root { font-family: 'Inter var', sans-serif; }
+}
+
 html, body {
   font-family: "Inter", sans-serif;
 }
 
 /* nav styles */
+header {
+  background: #C32F27;
+}
+
 .brand-text, .nav-link {
-  color: #36453B !important;
+  color: #fff !important;
 }
 
 h1, h2 {
-  font-family: "Woodland-bold", sans-serif;
+  font-family: 'Fjalla One', sans-serif;
 }
 
 #title-container-wrapper{
-  background-color: #36453b;
-  background-image: url("/img/jb-img/navy.png");
-  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+  background-color: #F7B538;
+  align-items: center;
+  text-align: center;
+}
+
+.custom-shape-divider-bottom-1694620447 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1694620447 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 63px;
+}
+
+.custom-shape-divider-bottom-1694620447 .shape-fill {
+    fill: #FFFFFF;
 }
 
 .title-font{
-  font-family: "Woodland-bold", sans-serif;
-  font-size: 4rem;
-  text-shadow: -3px 3px 4px rgba(0, 0, 0, 1);
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 3.5rem;
+  color: #333;
 }
 span.sub-h1{
-  font-family: "Woodland-bold", sans-serif;
-  color: #dbad6a;
-  font-size: 3rem;
-  text-shadow: -3px 3px 4px rgba(0, 0, 0, 1);
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 2.5rem;
+  color: #333;
 }
 
 p {
   font-family: "Inter", sans-serif;
 }
 
-#title-container-wrapper{
-  align-items: center;
-  text-align: center;
-}
-
 .banner-img {
-  width:90%;
+  width: 75%;
   display:block;
   margin:0 auto;
-  box-shadow: 40px 40px 0px -23px rgba(219,173,106,1);
-  -webkit-box-shadow: 40px 40px 0px -23px rgba(219,173,106,1);
-  -moz-box-shadow: 40px 40px 0px -23px rgba(219,173,106,1);
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  border-radius: 5px;
 }
 
 @media only screen and (max-width:767px) {
   .banner-img {
-    width:80%;
-    display:block;
-    box-shadow: 40px 40px 0px -23px rgba(219,173,106,1);
+    width:60%;
+    /* box-shadow: 40px 40px 0px -23px rgba(219,173,106,1);
     -webkit-box-shadow: 40px 40px 0px -23px rgba(219,173,106,1);
-    -moz-box-shadow: 40px 40px 0px -23px rgba(219,173,106,1);
+    -moz-box-shadow: 40px 40px 0px -23px rgba(219,173,106,1); */
   }
   p, ul > li {
     font-size: 16px;
@@ -95,139 +116,124 @@ p {
 
 /* contact form */
 .contact-input {
-  border: 3px solid #36453B;
-  border-radius: 0px; 
+  border-radius: 5px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  outline:5px solid transparent
 }
 
 .contact-input:focus {
-  outline: 3px solid #DBAD6A;
-  border: 5px solid #36453B;
+  border: none;
+  border-radius: 5px;
+  outline: 5px solid #F7B538;
 }
 
 .button-img{
   width: 32px;
   margin-right: 10px;
 }
+.btn-color {
+  color: #333;
+  border-radius: 5px;
+  margin-top:0px;
+  border: none;
+  outline: 3px solid #F7B538;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
 .btn-color:hover {
-  background-color: #DBAD6A;
-  color: #36453B;
-  border: 4px solid #fff;
-  box-shadow: 0 10px 20px rgb(0 0 0 / 19%), 0 6px 6px rgb(0 0 0 / 23%);
+  background-color: #F7B538;
+  color:#333;
+  border-radius: 5px;
+  /* color: #780116; */
+  border: none;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.btn-color:focus {
+  background-color: #F7B538;
+  border: none;
+  outline: 5px solid #333;
 }
 
 .form-wrapper {
-  background-color: #5d2e46;
-  background-image: url("/img/jb-img/xv.png");
-  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+  background-color: #780116;
 } 
 
+form h2 {
+  color: #fff;
+}
 /* footer */ 
 .footer-style{
-  background-color: transparent;
-  border-top:5px solid #36453b;
+  background-color: #F7B538;
+  border-top:5px solid #C32F27;
+  color: #333;
 }
-
-
-/* credit section */
-/* my styles */
-
-.credit-section {
-  background-color: #fff;
-}
-.flip-card-back > h2 {
-  font-size: 16px;
-  font-family: "Inter", sans-serif;
-  padding: 10px;
-}
-.flip-card-back > p {
-  font-size: 14px;
-  padding: 0px 10px;
-  margin-bottom: 1rem;
-}
-.credit-img{
-  width:100%;
-}
-
-
-/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
-.flip-card {
-  background-color: transparent;
-  width: 200px;
-  height: 200px;
-  /* border: 1px solid #f1f1f1; */
-  perspective: 1000px; /* Remove this if you don't want the 3D effect */
-}
-
-@media only screen and (max-width:767px) {
-  .flip-card {
-    width: 170px;
-    height: 170px;
-  }
-  .flip-card-back > h2 {
-    font-size: 14px;
-    font-family: "Inter", sans-serif;
-    padding: 5px;
-  }
-  .flip-card-back > p {
-    font-size: 13px;
-    padding: 0px 5px;
-    margin-bottom: 5px;
-  }
-}
-
-/* This container is needed to position the front and back side */
-.flip-card-inner {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  transition: transform 0.8s;
-  transform-style: preserve-3d;
-}
-
-/* Do an horizontal flip when you move the mouse over the flip box container */
-.flip-card:hover .flip-card-inner {
-  transform: rotateY(180deg);
-}
-
-/* Position the front and back side */
-.flip-card-front, .flip-card-back {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  -webkit-backface-visibility: hidden; /* Safari */
-  backface-visibility: hidden;
-}
-
-/* Style the front side (fallback if image is missing) */
-.flip-card-front {
-  background-color: #bbb;
-  color: black;
-}
-
-/* Style the back side */
-.flip-card-back {
-  background-color: #36453b;
-  color: white;
-  transform: rotateY(180deg);
-}
-
 
 .credit--radio::before {
-  content: "🔈 "
+  content: "🔈";
+  margin-right: 15px;
 }
 .credit--tv::before {
-  content: "📺 "
+  content: "📺";
+  margin-right: 15px;
 }
 .credit--online::before {
-  content: "💻 "
+  content: "📱";
+  margin-right: 15px;
+
 }
-/* new colours 
+
+/* cards */
+.card {
+  background: #fff;
+  border-radius: 2px;
+  display: inline-block;
+  height: 300px;
+  margin: 1rem;
+  position: relative;
+  width: 300px;
+}
+
+.card-1 {
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.card-1:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.card-2 {
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.card-3 {
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.card-4 {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.card-5 {
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+
+/* old colours 
 
 cinnamon satin: #CE6A85;
 sugar plum: #985277;
 powder blue: #A9D2D5;
 earth yellow: #DBAD6A;
 kombu green: #36453B;
+
+*/
+
+/* New colours 
+
+darker red: #780116;
+mustard: #F7B538;
+mid orange: #DB7C26;
+orange organge: #D8572A;
+mcdonalds red: #C32F27;
 
 */
