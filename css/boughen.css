@@ -366,6 +366,7 @@ input[type=text], input[type=email], textarea{
 
 .banner-img {
   width: 300px;
+  height: 324px;
   display:block;
   margin:0 auto;
   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
@@ -373,7 +374,8 @@ input[type=text], input[type=email], textarea{
 }
 @media only screen and (max-width:767px) {
   .banner-img {
-    width: 250px
+    width: 250px;
+    height: 270px;
   }
   p, ul > li {
     font-size: 16px;
